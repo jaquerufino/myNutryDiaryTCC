@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Objetivo e Plano Nutricional</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="plan-body">
+  <div class="objetivo">
+    <h1>Escolha abaixo o seu objetivo ao estar utilizando este aplicativo.</h1>
+    <ion-item class="form-register">
+      <ion-label style="color: white;">Objetivo</ion-label>
+      <ion-select [(ngModel)]="objetivo">
+        <ion-option value="emagrecer">Emagrecer</ion-option>
+        <ion-option value="lowcarb">Emagrecer - Low Carb</ion-option>
+        <ion-option value="vegetarianismo">Vegetarianismo</ion-option>
+        <ion-option value="veganismo">Veganismo</ion-option>
+        <ion-option value="ganhodemassa">Ganho de massa</ion-option>
+        <ion-option value="vidasaudavel">Vida saudável</ion-option>
+      </ion-select>
+    </ion-item>
+    <button ion-button color="blue" (click)="alertObjetivo()">Enviar</button>
+    <h4>Sua escolha auxiliará o seu nutricionista a escolher um plano nutricional que se encaixe dentro seu objetivo e estilo de vida.</h4>
+
+    <h1>Veja abaixo o seu plano nutricional</h1>
+    <div class="plan">
+    </div>
+  </div>
+</ion-content>

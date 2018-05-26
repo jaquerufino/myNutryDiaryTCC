@@ -1,0 +1,39 @@
+page-register{
+  .body-register{
+    background-image: url("../../assets/imgs/fruits.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .register-container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+  }
+  .form-register{
+    background: transparent;
+    color: white !important;
+  }
+  .button{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    left: 35%;
+  }
+  ion-item{
+    padding-left: 2% !important;
+    color: white;
+  }
+  ion-icon{
+    margin-left: 2%;
+  }
+  button{
+    background-color: transparent;
+  }
+  ion-title{
+    text-align: center;
+  }
+  input{
+    color: white;
+  }
+}

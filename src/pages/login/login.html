@@ -1,0 +1,30 @@
+<ion-content padding class="contentLogin">
+
+  <div class="div-login">
+
+    <h1 class="h1login">My Nutri Diary</h1>
+    <!-- <h2 class="h2login">Tenha toda a praticidade de ter o seu diário alimentar na palma das suas mãos.</h2> -->
+
+    <ion-list class="listlogin" disableScroll>
+
+      <ion-item>
+        <ion-label stacked>Usuário ou E-mail</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked>Senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <button class="buttoncadastro"ion-button color="dark" round (click)="goToRegister()">Não tem cadastro? Clique e cadastre-se!</button>
+      <button class="buttonesquecisenha"ion-button color="light" round (click)="goToRegisterNutri()">Cadastro Profissional</button>
+
+      <button ion-button block large>Entrar</button>
+      <button class="resert-button" color="light" (click)="goToResetPassword()">Esqueci minha senha!</button>
+
+    </ion-list>
+
+  </div>
+
+</ion-content>

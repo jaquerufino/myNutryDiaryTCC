@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Seu Perfil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="body-profile">
+  <h1 class="h1-title">Altere seus dados sempre que achar necessário.</h1>
+  <div class="profile-container">
+    <div>
+      <p class="profile">Nome</p>
+      <ion-input class="name"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Email</p>
+      <ion-input class="email"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">CPF</p>
+      <ion-input class="cpf"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Gênero</p>
+      <ion-input class="kind"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Estado Civil</p>
+      <ion-input class="civil-status"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Data de Nascimento</p>
+      <ion-input  class="date" type="date"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Celular</p>
+      <ion-input class="cell-phone"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">País</p>
+      <ion-input class="country"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Estado</p>
+      <ion-input class="state"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Cidade</p>
+      <ion-input class="city"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">Número</p>
+      <ion-input class="number" type="number"></ion-input>
+    </div>
+    <hr>
+    <div>
+      <p class="profile">CEP</p>
+      <ion-input class="cep" type="number"></ion-input>
+    </div>
+    <hr>
+  </div>
+  <button ion-button color="light" (click)="showAlert()">Alterar</button>
+  <button ion-button full color="dark" (click)="goToAlterPasswordEmail()">Alterar Senha e E-mail</button>
+</ion-content>

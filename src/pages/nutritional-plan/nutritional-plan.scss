@@ -1,0 +1,40 @@
+page-nutritional-plan {
+  .plan-body{
+    background-image: url("../../assets/imgs/nutri.jpg");
+  }
+  h1{
+    font-size: 27px;
+    text-align: center;
+    color: #58C9B9;
+    font-weight: 200;
+    padding-top: 8px;
+  }
+  h4{
+    text-align: center;
+    margin-bottom: 5%;
+    color: ghostwhite;
+    padding: 8px;
+    font-weight: 200;
+  }
+  .objetivo{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding-bottom: 15px;
+  }
+  .button-md{
+    background-color: #58C9B9 !important;
+    margin-top: 2%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .plan{
+    background-color: ghostwhite;
+    width: 92%;
+    height: 167px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+}

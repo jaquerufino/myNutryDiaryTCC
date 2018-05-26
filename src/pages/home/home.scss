@@ -1,0 +1,97 @@
+page-home {
+  .titleHome{
+    text-align: center;
+    padding-right: 60px;
+  }
+  .contentHome{
+    background-image: url("../../assets/imgs/comidas-saudaveis2.jpg");
+    background-repeat: no-repeat;
+     background-size:cover;
+  }
+  .contentHome .textHome{
+    font-size: 35px;
+    text-align: center;
+    color: #8F2D56;
+    text-shadow: 3px 2px 3px rgba(150, 150, 144, 1);
+    width: 368px;
+    border: transpatent;
+    word-break: keep-all;
+    padding-top: 10px;
+  }
+  .weighing-container{
+    border: 2px solid white;
+    border-radius: 88px;
+    background-color: rgba(275, 275, 275, 0.8);
+    .title-weighing{
+      text-align: center;
+      margin-top: 1%;
+      font-weight: 200;
+      color: olivedrab;
+    }
+    .text-input, .text-input-md{
+      text-align: center;
+      margin-top: 0;
+    }
+  }
+  .breakfast-container, .lunch-morning-container, .lunch-container, .lunch-afternoon-container,
+   .dinner-container, .supper-container, .pre-workout-container, .after-workout-container{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(275, 275, 275, 0.8);
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    border-bottom-width: 0px;
+  }
+  .lunch-morning-container, .lunch-container, .lunch-afternoon-container, .dinner-container,
+   .supper-container, .pre-workout-container, .after-workout-container{
+    margin-top: 3%;
+  }
+  h1.title{
+    color: #218380;
+    font-size: 21px;
+    width: 100%;
+    border-bottom:  1px solid #E0E3DA;
+    background-color: white;
+  }
+  ion-icon.icon{
+    color: #6E7783;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 2%;
+  }
+  ion-icon.icon-photo{
+    color: grey;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: -1%;
+    margin-right: 3%;
+    padding-top: 4.5%;
+    padding-left: 5%;
+    padding-right: 0%;
+    background-color: #f4f4f4;
+  }
+  input{
+    border: 0px solid transparent;
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+    white-space:normal;
+  }
+  p.coment{
+    white-space: normal;
+  }
+  .toolbar-content-md{
+     margin-left: 16%;
+  }
+  .weighing-container{
+    margin-bottom: 2%;
+    text-align: center;
+    .weight{
+      text-align: center;
+    }
+  }
+}

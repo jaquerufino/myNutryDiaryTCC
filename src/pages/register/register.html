@@ -1,0 +1,133 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button>
+      <ion-icon ios="ios-arrow-back" md="md-arrow-back" (click)="goToLogin()"></ion-icon>
+    </button>
+    <ion-title>Cadastre-se</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="body-register">
+  <div class="register-container">
+    
+    <ion-list class="form-register">
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Nome Completo</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Username</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Email</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">CPF</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Gênero</ion-label>
+        <ion-select [(ngModel)]="genero">
+          <ion-option value="feminino">Feminino</ion-option>
+          <ion-option value="masculino">Masculino</ion-option>
+          <ion-option value="outro">Outro</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Estado Civil</ion-label>
+        <ion-select [(ngModel)]="estadoCivil">
+          <ion-option value="solteiro">Solteiro(a)</ion-option>
+          <ion-option value="casado">Casado(a)</ion-option>
+          <ion-option value="separado">Separado(a)</ion-option>
+          <ion-option value="divorciado">Divorciado(a)</ion-option>
+          <ion-option value="viuvo">Viuvo(a)</ion-option>
+          <ion-option value="desquitado">Desquitado(a)</ion-option>
+          <ion-option value="uniao">União Estável</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="form-register" style="height: 64px;">
+        <ion-label style="color: white;">Data de Nascimento</ion-label>
+        <ion-input type="date"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Altura</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Peso</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Celular</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">País</ion-label>
+        <ion-select [(ngModel)]="pais">
+          <ion-option value="55">Brasil</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Estado</ion-label>
+        <ion-select [(ngModel)]="estado">
+          <ion-option value="11">São Paulo</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Cidade</ion-label>
+        <ion-select [(ngModel)]="pais">
+          <ion-option value="1">São Paulo</ion-option>
+          <ion-option value="2">Santo André</ion-option>
+          <ion-option value="3">São Caetano</ion-option>
+          <ion-option value="4">São Bernardo</ion-option>
+          <ion-option value="5">Mauá</ion-option>
+          <ion-option value="6">Diadema</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Bairro</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Número</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">Complemento</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item class="form-register">
+        <ion-label floating style="color: white;">CEP</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+
+      <button ion-button round color="light" class="button" (click)="goToHome()">Concluído</button>
+
+    </ion-list>
+  </div>
+
+</ion-content>
